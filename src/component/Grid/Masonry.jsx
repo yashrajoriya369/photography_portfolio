@@ -1,36 +1,20 @@
-import img1 from "/photos/img1.jpg";
-import img2 from "/photos/img2.jpg";
-import img3 from "/photos/img3.jpg";
-import img4 from "/photos/img4.jpg";
-import img5 from "/photos/img5.jpg";
-import img6 from "/photos/img6.jpg";
-import img7 from "/photos/img7.jpg";
-import img8 from "/photos/img8.jpg";
-import img9 from "/photos/img9.jpg";
-import img10 from "/photos/img10.jpg";
-import img11 from "/photos/img11.jpg";
-import img12 from "/photos/img12.jpg";
-import img13 from "/photos/img13.jpg";
-import img14 from "/photos/img14.jpg";
-import img15 from "/photos/img15.jpg";
-
 const MasonryGallery = () => {
   const images = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-    img9,
-    img10,
-    img11,
-    img12,
-    img13,
-    img14,
-    img15,
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386755/img1_tvie8s.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386758/img14_bnq0rz.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765387355/img3_iyi4tz.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765387629/img4_g8mkav.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386755/img5_ruwe1x.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765387879/img6_wfipw4.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386769/img7_f9n30e.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765388151/img8_a6lelj.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765388153/img9_kensi1.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765388380/img10_igsykp.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765388379/img11_velesg.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386755/img12_lmemrp.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386773/img13_usfyo1.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386758/img14_bnq0rz.jpg",
+    "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765388432/img15_jinj05.jpg",
   ];
 
   return (

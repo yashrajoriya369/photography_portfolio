@@ -1,4 +1,3 @@
-import img1 from "/photos/img1.jpg";
 import MyWorkGrid from "./Grid/Simple";
 import FilterGallery from "./Grid/Filterable";
 import MasonryGallery from "./Grid/Masonry";

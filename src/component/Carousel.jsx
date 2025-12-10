@@ -1,34 +1,28 @@
-import img1 from "/photos/img1.jpg";
-import img2 from "/photos/img2.jpg";
-import img3 from "/photos/img3.jpg";
-import img4 from "/photos/img4.jpg";
-import img5 from "/photos/img5.jpg";
-
 import { useEffect, useState } from "react";
 
 const slides = [
   {
-    img: img1,
+    img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386755/img1_tvie8s.jpg",
     title: "Image1",
     subtitle: "Discover the beauty of nature in every frame.",
   },
   {
-    img: img2,
+    img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386758/img14_bnq0rz.jpg",
     title: "Image2",
     subtitle: "Discover the beauty of nature in every frame.",
   },
   {
-    img: img3,
+    img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765387355/img3_iyi4tz.jpg",
     title: "Image3",
     subtitle: "Discover the beauty of nature in every frame.",
   },
   {
-    img: img4,
+    img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765387629/img4_g8mkav.jpg",
     title: "Image4",
     subtitle: "Discover the beauty of nature in every frame.",
   },
     {
-    img: img5,
+    img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386755/img5_ruwe1x.jpg",
     title: "Image5",
     subtitle: "Discover the beauty of nature in every frame.",
   },
@@ -59,9 +53,9 @@ const Carousel = ({ duration = 5000 }) => {
           <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
             <h1 className="text-4xl font-bold mb-3">{slide.title}</h1>
             <p className="text-lg max-w-xl mb-5">{slide.subtitle}</p>
-            {/* <button className="bg-white text-black px-6 py-2 rounded-md hover:bg-gray-300 transition">
+            <button className="bg-white text-black px-6 py-2 rounded-md hover:bg-gray-300 transition">
               Book Now
-            </button> */}
+            </button>
           </div>
         </div>
       ))}

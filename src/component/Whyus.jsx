@@ -1,27 +1,22 @@
-import img2 from "/photos/img2.jpg";
-import img4 from "/photos/img4.jpg";
-import img5 from "/photos/img5.jpg";
-import img8 from "/photos/img8.jpg";
-
 const WhyUs = () => {
   const cards = [
     {
-      img: img2,
+      img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386758/img14_bnq0rz.jpg",
       title: "Cinematic Wedding Photography",
       desc: "Capturing your big day with rich colors, emotions and perfect timing.",
     },
     {
-      img: img8,
+      img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765388151/img8_a6lelj.jpg",
       title: "Traditional & Candid Moments",
       desc: "Beautifully framed traditional rituals mixed with candid expressions.",
     },
     {
-      img: img5,
+      img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765386755/img5_ruwe1x.jpg",
       title: "Couple Portrait Perfection",
       desc: "Creative couple portraits that look cinematic and timeless.",
     },
     {
-      img: img4,
+      img: "https://res.cloudinary.com/djzgfe8mn/image/upload/v1765387629/img4_g8mkav.jpg",
       title: "Premium Wedding Editing",
       desc: "High-end color grading and retouching for a magazine-style finish.",
     },
